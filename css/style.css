@@ -1,0 +1,100 @@
+html {
+	height: 100%;
+}
+body {
+	background: linear-gradient(to bottom, #BFBEBE, #EFEFEF) no-repeat;
+	font-family: 'Raleway', sans-serif;
+	color: #FFF;
+	background-size: 100%;
+}
+
+#wrapper {
+	margin: 100px auto;
+	width: 450px;
+	box-shadow: 0px 0px 20px #303030;
+}
+
+header {
+	border-radius: 3px  3px 0 0;
+	text-align: center;
+	background-color: #FF3500;
+	padding: 8px;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 26px;
+	margin: 0;
+	font-weight: 500;
+}
+
+small {
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 20px;
+	color: #FF3500;
+}
+
+#newItem {
+	padding: 20px;
+}
+
+#newList {
+	background-color: #303030;
+	border-radius: 0 0 3px 3px;
+}
+
+#newItemForm {
+	padding: 2px 20px 18px;
+}
+
+#textArea {
+	border: none;
+	background-color: #BFBEBE;
+	padding: 5px;
+	min-width: 250px;
+}
+
+.buttonStyle {
+	border: none;
+	background-color: #303030;
+	color: #FF3500;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#btn {
+	font-size: 38px;
+	position: relative;
+	top: 8px;
+	left: 3px;
+}
+
+.del {
+	float: right;
+	display: none;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0 22px 5px;
+}
+
+ul li:hover {
+	cursor: pointer;
+}
+
+.listItem {
+	list-style-type: none;
+	padding: 3px;
+	border-bottom: 1px solid #FF3500;
+	min-height: 20px;
+	margin-bottom: 5px;
+}
+
+.complete {
+	text-decoration: line-through;
+	color: #757575;
+}
